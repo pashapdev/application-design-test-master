@@ -1,0 +1,9 @@
+POST http://localhost:8080/order HTTP/1.1
+content-type: application/json
+
+{
+    "room":"econom",
+	"email":"pasha@ya.ru",
+	"from":"2022-01-01",
+	"to": "2022-02-02"
+}
